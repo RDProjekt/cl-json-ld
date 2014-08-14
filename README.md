@@ -34,9 +34,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Use jsonld.asd file to install the library.
 
+If you have [Quicklisp](http://www.quicklisp.org/) installed, you can use it to download dependencies automatically:
+```lisp
+(push "/path/to/cl-json-ld/" asdf:*central-registry*)
+(ql:quickload :cl-json-ld)
+```
+
 Depending on whether you have ST-JSON or Yason installed for JSON
 handling, one of those will be used. If no library is installed,
-ST-JSON will be downloaded by ASDF.
+ST-JSON will be downloaded by Quicklisp.
 
 ## JSON-LD tests
 
