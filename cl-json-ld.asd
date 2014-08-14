@@ -21,9 +21,9 @@
 (in-package :cl-json-ld-system)
 
 (defparameter *json-library* (cond
- ((find-system :st-json)
+ ((find-system :st-json nil)
   :st-json)
- ((find-system :yason)
+ ((find-system :yason nil)
   :yason)
  (t :st-json)))
 
