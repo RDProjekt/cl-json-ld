@@ -32,7 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Installation
 
-Use jsonld.asd file to install the library.
+Use `cl-json-ld.asd` file to install the library.
 
 If you have [Quicklisp](http://www.quicklisp.org/) installed, you can use it to download dependencies automatically:
 ```lisp
